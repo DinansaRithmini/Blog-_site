@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #89ABE3;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 36px;
+    font-family: Young Serif;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+  }
+  
+  .sign-up-btn {
+    background-color:#89ABE3;
+    color: #feffff;
+    padding: 8px 16px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .sign-up-btn:hover {
+    background-color: #94b9f5;
+    color: white;
+  }
+  

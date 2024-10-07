@@ -1,0 +1,78 @@
+.post-form {
+  max-width: 1700px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the start */
+  margin-bottom: 20px;
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0; /* Remove default margin */
+}
+
+.tutorial-link {
+  color: #a3b7dd;
+  font-size: 20px;
+  text-decoration: none;
+  font-family:Space Grotesk;
+  margin-left: 40px; /* Reduced margin between the title and link */
+}
+
+.title-input, .post-input {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  border: 3px solid #89ABE3;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+.textarea-container {
+  position: relative; /* This will allow the submit button to be positioned relative to this container */
+}
+
+.post-input {
+  height: 600px;
+  resize: none;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 200;
+  
+  padding-right: 100px; /* Add padding to the right for the button space */
+}
+
+.submit-button {
+  background-color: #89ABE3;
+  border: none;
+  padding: 15px; /* Increased padding for a larger button */
+  border-radius: 50%; /* Makes the button fully round */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* Positioned absolutely inside the textarea container */
+  bottom: 20px; /* Spacing from the bottom */
+  right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #b4bbca;
+}
+
+.submit-button span {
+  font-size: 24px; /* Increased font size for the "+" icon */
+  font-weight: bold; /* Makes the "+" icon bold */
+  color: white;
+}
